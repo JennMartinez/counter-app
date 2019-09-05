@@ -6,10 +6,11 @@ class Counter extends Component {
     };
     render() { 
         return (
-        <React.Fragment>
+        <div>
+            <img src="" alt=""/>
             <span>{this.formatCount()}</span>
             <button>Increment</button>
-        </React.Fragment>
+        </div>
         );
     }
 
